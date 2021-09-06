@@ -1,0 +1,18 @@
+{
+    "PORT" : "3000",
+    "DBINFO": {
+        "host" : "15.164.212.35",
+        "user": "WASAP",
+        "password": "Tmdals0707!",
+        "database" : "CHAT",
+        "connectionLimit": 20,
+        "waitForConnections": false
+    },
+    "REDISINFO" : {
+        "host" : "15.164.212.35",
+        "port": 6379,
+        "client": "client",
+        "prefix": "session:",
+        "db": 0
+    }
+}
